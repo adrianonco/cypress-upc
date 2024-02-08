@@ -5,8 +5,13 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    // Enable experimental Studio
+    experimentalStudio: true,
+
+    // Enable screenshots on test failures
+    screenshotOnRunFailure: true,
+
+    // Enable video recording of tests
+    video: true,
   },
-  experimentalStudio: true,
-  "screenshotOnRunFailure": true,
-  "video": true,
 });
