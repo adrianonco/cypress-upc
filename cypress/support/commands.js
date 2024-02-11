@@ -1,3 +1,4 @@
+//Step 1
 // Define a custom command 'navigateToUrl' to navigate to a URl specified in a fixture file
 Cypress.Commands.add('navigateToUrl', (fixturePath) => {
     
@@ -8,3 +9,5 @@ Cypress.Commands.add('navigateToUrl', (fixturePath) => {
         cy.visit(urls.baseUrl);
     });
   });
+
+
